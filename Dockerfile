@@ -1,3 +1,5 @@
+FROM ubuntu:16.10
+
 # Install Java
 RUN apt-get install -y default-jre
 
