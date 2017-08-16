@@ -1,7 +1,7 @@
 FROM ubuntu:16.10
 
 # Install Java
-RUN apt-get install -y default-jre
+# RUN apt-get install -y default-jre
 
 # Install node 6.x
 RUN curl -sL https://deb.nodesource.com/setup_6.x | bash -
