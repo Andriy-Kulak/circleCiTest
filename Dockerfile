@@ -1,5 +1,7 @@
 FROM ubuntu:16.10
 
+RUN apt-get install -y apt-transport-https
+
 # Install Java
 # RUN apt-get install -y default-jre
 
